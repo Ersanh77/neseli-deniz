@@ -20,7 +20,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./neseli_deniz
+        working-directory: ./neseli_deniz_gorsel_duzeltilmis
 
     steps:
       - name: Checkout
@@ -43,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./neseli_deniz/dist
+          path: ./neseli_deniz_gorsel_duzeltilmis/dist
 
   deploy:
     environment:
