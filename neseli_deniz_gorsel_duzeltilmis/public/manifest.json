@@ -1,0 +1,29 @@
+{
+  "background_color": "#ffffff",
+  "description": "Renkli 2.5D grafiklerle eğlenceli bir deniz canlıları eşleştirme oyunu.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Neşeli Deniz",
+  "orientation": "any",
+  "scope": "/neseli-deniz/",
+  "short_name": "Neşeli Deniz",
+  "start_url": "/neseli-deniz/",
+  "theme_color": "#0f172a",
+  "id": "neseli-deniz",
+  "lang": "tr",
+  "categories": [
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "/neseli-deniz/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/neseli-deniz/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
