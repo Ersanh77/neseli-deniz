@@ -32,9 +32,11 @@ jobs:
         working-directory: ./neseli_deniz_gorsel_duzeltilmis
         run: npm install --legacy-peer-deps
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
+       - name: Setup Pages
+         uses: actions/configure-pages@v5
+         with:
+           enablement: true
+          
       - name: Build
         working-directory: ./neseli_deniz_gorsel_duzeltilmis
         run: npm run build -- --base=/neseli-deniz/
