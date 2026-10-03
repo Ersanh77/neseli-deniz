@@ -1,8 +1,9 @@
-name: Deploy Neşeli Deniz to GitHub Pages
+name: Deploy Neseli Deniz to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -11,16 +12,12 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: ./neseli_deniz_gorsel_duzeltilmis
 
     steps:
       - name: Checkout
@@ -32,12 +29,14 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-       run: npm install --legacy-peer-deps
+        working-directory: ./neseli_deniz_gorsel_duzeltilmis
+        run: npm install --legacy-peer-deps
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Build
+        working-directory: ./neseli_deniz_gorsel_duzeltilmis
         run: npm run build -- --base=/neseli-deniz/
 
       - name: Upload artifact
