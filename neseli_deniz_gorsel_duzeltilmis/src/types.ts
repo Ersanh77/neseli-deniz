@@ -80,47 +80,47 @@ export const CREATURES = [
   {
     id: 0,
     name: 'Palyaço Balığı',
-    src: '/images/orange_fish_icon_1790346857071.jpg',
+    src: `${import.meta.env.BASE_URL}images/orange_fish_icon_1790346857071.jpg`,
   },
   {
     id: 1,
     name: 'Ahtapot',
-    src: '/images/octopus_icon_1790346759295.jpg',
+    src: `${import.meta.env.BASE_URL}images/octopus_icon_1790346759295.jpg`,
   },
   {
     id: 2,
     name: 'Deniz Atı',
-    src: '/images/seahorse_icon_1790346771053.jpg',
+    src: `${import.meta.env.BASE_URL}images/seahorse_icon_1790346771053.jpg`,
   },
   {
     id: 3,
     name: 'Deniz Anası',
-    src: '/images/jellyfish_icon_1790346781708.jpg',
+    src: `${import.meta.env.BASE_URL}images/jellyfish_icon_1790346781708.jpg`,
   },
   {
     id: 4,
     name: 'Yunus',
-    src: '/images/dolphin_icon_1790346790911.jpg',
+    src: `${import.meta.env.BASE_URL}images/dolphin_icon_1790346790911.jpg`,
   },
   {
     id: 5,
     name: 'Fok',
-    src: '/images/seal_icon_1790346800472.jpg',
+    src: `${import.meta.env.BASE_URL}images/seal_icon_1790346800472.jpg`,
   },
   {
     id: 6,
     name: 'Penguen',
-    src: '/images/penguin_icon_1790346810405.jpg',
+    src: `${import.meta.env.BASE_URL}images/penguin_icon_1790346810405.jpg`,
   },
   {
     id: 7,
     name: 'Deniz Yıldızı',
-    src: '/images/starfish_booster_icon_1790347162068.jpg',
+    src: `${import.meta.env.BASE_URL}images/starfish_booster_icon_1790347162068.jpg`,
   },
   {
     id: 8,
     name: 'Girdap',
-    src: 'VORTEX_ICON', // Marker for special rendering in Tile.tsx
+    src: 'VORTEX_ICON',
   },
 ];
 
