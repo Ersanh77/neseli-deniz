@@ -1,0 +1,6 @@
+{
+  "name": "Neşeli Deniz Dünyası",
+  "description": "Renkli 2.5D grafiklerle eğlenceli bir deniz canlıları eşleştirme oyunu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
